@@ -15,6 +15,9 @@ namespace Intro2D_02_Beispiel
             // Erzeuge ein neues Fenster
             RenderWindow win = new RenderWindow(new VideoMode(800, 600), "Mein erstes Fenster");
 
+            View view = new View(new FloatRect(-100, -100, 1000, 800)); // view erzeugen und ein viewfrustrum festlegen
+            win.SetView(view);//anzeigen lassen
+
             // Achte darauf, ob Fenster geschlossen wird
             win.Closed += win_Closed;
 
@@ -28,7 +31,7 @@ namespace Intro2D_02_Beispiel
                 win.DispatchEvents();
 
                 update();
-                draw(win);
+                draw(win, view);
             }
         }
 
@@ -53,7 +56,7 @@ namespace Intro2D_02_Beispiel
 
         static void loadContent()
         {
-
+            
         }
 
         static void update()
@@ -67,8 +70,11 @@ namespace Intro2D_02_Beispiel
                 Console.WriteLine("COLLISION!!11111");
         }
 
-        static void draw(RenderWindow win)
+        static void draw(RenderWindow win, View view)
         {
+            view.Move(new Vector2f(1, 0)); // view bewegen
+            win.SetView(view);// und wieder anzeigen lasse
+
             win.Clear(new Color(0,0,255));
             map.draw(win);
             player.draw(win);
@@ -77,24 +83,28 @@ namespace Intro2D_02_Beispiel
             win.Display();
         }
 
-        static bool collision(Vector2f objekt1, float höheObjekt1, float weiteObjekt1, Vector2f objekt2, float höheObjekt2, float weiteObjekt2)
+        static bool collision(Vector2f obj1, float hObj1, float wObj1, Vector2f obj2, float hObj2, float wObj2)
         {
-            float grXobj1 = objekt1.X + weiteObjekt1;
-            float grXobj2 = objekt2.X + weiteObjekt2;
-            float klXobj1 = objekt1.X;
-            float klXobj2 = objekt2.X;
+            // mittelpunkt errechnen
+            Vector2f Mobj1 = new Vector2f(obj1.X + wObj1/2, obj1.Y + hObj1/2); 
+            Vector2f Mobj2 = new Vector2f(obj2.X + wObj2/2, obj1.Y + hObj1/2);
 
-            float grYobj1 = objekt1.Y + höheObjekt1;
-            float grYobj2 = objekt2.Y + höheObjekt2;
-            float klYobj1 = objekt1.Y;
-            float klYobj2 = objekt2.Y;
+            //länge der Radien errechnen
+            float rx1 = wObj1 / 2;
+            float rx2 = wObj2 / 2;
 
-            if ((grXobj1 < klXobj2 && klXobj1 > grXobj2) || (grYobj1 < klYobj2 && klYobj1 > grYobj2))
-                return false;
-            else
+            float ry1 = hObj1 / 2;
+            float ry2 = hObj2 / 2;
+
+            //Abstand der Mittelpunkte
+            float dx = Math.Abs(Mobj1.X - Mobj2.X);
+            float dy = Math.Abs(Mobj1.Y - Mobj2.Y);
+
+            if (dx < rx1 + rx2 && dy < ry1 + ry2)
                 return true;
-        }
 
+            return false;
+        }
         
     }
 }

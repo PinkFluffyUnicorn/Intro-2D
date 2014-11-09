@@ -8,12 +8,10 @@ using System.Threading.Tasks;
 
 namespace Intro2D_02_Beispiel
 {
-    class Map // Matrix mit 50x50
+    class Map 
     {
         Tile[,] mapTiles; // breite x höhe
         int[,] map;
-        Tile block1;
-        Tile block2;
 
 
 
@@ -51,6 +49,7 @@ namespace Intro2D_02_Beispiel
                            {1,0,0,0,0,0,0,0,0,0,0,0},
                            {1,0,0,0,0,0,0,0,0,0,0,0},
                            {1,0,0,0,0,0,0,0,0,0,0,0}};
+
             mapTiles = new Tile[map.GetLength(0), map.GetLength(1)];
             for ( int i = 0; i < mapTiles.GetLength(0); i++)
             {

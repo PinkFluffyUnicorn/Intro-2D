@@ -31,3 +31,19 @@ C:\Users\Sara\Downloads\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2
 C:\Users\Sara\Downloads\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\obj\Debug\Intro2D-03-Beispiel.csprojResolveAssemblyReference.cache
 C:\Users\Sara\Downloads\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\bin\Debug\Pictures\tile1.png
 C:\Users\Sara\Downloads\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\bin\Debug\Pictures\tile2.png
+C:\Users\Sara\Desktop\INtro 2d\Intro-2D\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\bin\Debug\Intro2D-02-Beispiel.exe.config
+C:\Users\Sara\Desktop\INtro 2d\Intro-2D\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\obj\Debug\Intro2D-02-Beispiel.exe
+C:\Users\Sara\Desktop\INtro 2d\Intro-2D\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\obj\Debug\Intro2D-02-Beispiel.pdb
+C:\Users\Sara\Desktop\INtro 2d\Intro-2D\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\bin\Debug\csfml-audio-2.dll
+C:\Users\Sara\Desktop\INtro 2d\Intro-2D\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\bin\Debug\csfml-graphics-2.dll
+C:\Users\Sara\Desktop\INtro 2d\Intro-2D\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\bin\Debug\csfml-window-2.dll
+C:\Users\Sara\Desktop\INtro 2d\Intro-2D\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\bin\Debug\libsndfile-1.dll
+C:\Users\Sara\Desktop\INtro 2d\Intro-2D\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\bin\Debug\openal32.dll
+C:\Users\Sara\Desktop\INtro 2d\Intro-2D\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\bin\Debug\Pictures\Enemy.png
+C:\Users\Sara\Desktop\INtro 2d\Intro-2D\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\bin\Debug\Pictures\EnemyGreen.png
+C:\Users\Sara\Desktop\INtro 2d\Intro-2D\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\bin\Debug\Pictures\tile1.png
+C:\Users\Sara\Desktop\INtro 2d\Intro-2D\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\bin\Debug\Pictures\tile2.png
+C:\Users\Sara\Desktop\INtro 2d\Intro-2D\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\bin\Debug\Pictures\player.png
+C:\Users\Sara\Desktop\INtro 2d\Intro-2D\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\bin\Debug\Intro2D-02-Beispiel.exe
+C:\Users\Sara\Desktop\INtro 2d\Intro-2D\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\bin\Debug\Intro2D-02-Beispiel.pdb
+C:\Users\Sara\Desktop\INtro 2d\Intro-2D\Intro2D-Player-und-Enemy\Intro2D-Player und Enemy\Intro2D-02-Beispiel\obj\Debug\Intro2D-03-Beispiel.csprojResolveAssemblyReference.cache
