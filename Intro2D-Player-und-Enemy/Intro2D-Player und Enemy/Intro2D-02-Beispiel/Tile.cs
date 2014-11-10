@@ -10,33 +10,24 @@ namespace Intro2D_02_Beispiel
 {
     class Tile
     {
-        Sprite TileSprite;
-        Vector2f position;
         bool walkable;
+        Sprite Tilesprite;
+        Vector2f position;
 
-        public Tile(Vector2f _position, string texturepath, bool walk)
+        public Tile(bool _walkable, string texturepath, Vector2f _position)
         {
+            walkable = _walkable;
+
+            Tilesprite = new Sprite(new Texture(texturepath));
+            Tilesprite.Position = _position;
+
             position = _position;
-            
-            TileSprite = new Sprite(new Texture(texturepath));
-            TileSprite.Position = _position;
-            walkable = walk;
         }
-
-        public Vector2f getPosition()
-        {
-            return position;
-        }
-
-        public Sprite getTileSprite()
-        {
-            return TileSprite;
-        }
-
 
         public void draw(RenderWindow win)
         {
-            win.Draw(TileSprite);
+            win.Draw(Tilesprite);
         }
+
     }
 }
